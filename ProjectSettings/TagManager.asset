@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PalmTrees
   layers:
   - Default
   - TransparentFX
@@ -46,6 +47,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1931774871
+    locked: 0
+  - name: Home
+    uniqueID: 1629267657
     locked: 0
   m_RenderingLayers:
   - Default

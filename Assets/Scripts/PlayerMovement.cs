@@ -28,4 +28,9 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-}
+    private void FixedUpdate()
+    {
+         _rb.linearVelocity=_movement*_moveSpeed;
+    }
+
+    }
